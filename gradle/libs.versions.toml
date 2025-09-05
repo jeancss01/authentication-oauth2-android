@@ -1,0 +1,81 @@
+[versions]
+agp = "8.4.0"
+kotlin = "1.9.0"
+coreKtx = "1.10.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.1"
+material = "1.12.0"
+
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+coroutines-core = "1.4.3"
+multidex = "2.0.1"
+navVersion = "2.7.7"
+retrofit = "2.6.4"
+gsonConverter = "2.6.4"
+rxAdapter = "2.6.4"
+okHttpVersion = "4.10.0"
+gson = "2.8.5"
+navigation-version = "2.5.3"
+fragment-version = "1.5.5"
+lifecycle-version = "2.2.0"
+lifecycle-common-version = "2.2.0"
+
+hilt-version = "2.51"
+firebaseCrashlytics-version = "18.2.9"
+timberV = "5.0.1"
+hiltCompiler = "1.2.0"
+
+
+[libraries]
+multidex = { module = "androidx.multidex:multidex", version.ref = "multidex" }
+androidxHiltCompiler = { module = "androidx.hilt:hilt-compiler", version.ref = "hiltCompiler" }
+
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines-core"}
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit"}
+gsonConverter = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "gsonConverter"}
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson"}
+rxAdapter = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "rxAdapter"}
+
+okHttpBom = { group = "com.squareup.okhttp3", name = "okhttp-bom", version.ref = "okHttpVersion"}
+okHttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okHttpVersion"}
+okHttpLoggingInterceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okHttpVersion"}
+urlConnection = { group = "com.squareup.okhttp3", name = "okhttp-urlconnection", version.ref = "okHttpVersion"}
+
+fragmentNav = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation-version"}
+ui = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation-version"}
+navFragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigation-version"}
+navUi = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigation-version"}
+
+fragment = { group = "androidx.fragment", name = "fragment", version.ref = "fragment-version"}
+fragmentKtx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragment-version"}
+
+lifecycleExtensions = { group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycle-version"}
+lifecycleViewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-version"}
+lifecycleCompiler = { group = "androidx.lifecycle", name = "lifecycle-compiler", version.ref = "lifecycle-version"}
+lifecycleCommon = { group = "androidx.lifecycle", name = "lifecycle-common", version.ref = "lifecycle-common-version"}
+
+hiltAndroid = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt-version"}
+hiltCompiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt-version"}
+
+navigationSafeArgsGradlePlugin = { module = "androidx.navigation:navigation-safe-args-gradle-plugin", version.ref = "navVersion" }
+
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timberV" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+hilt =  { id = "com.google.dagger.hilt.android", version.ref = "hilt-version"}
+

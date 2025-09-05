@@ -1,0 +1,75 @@
+# =========================
+# Android / Gradle / Kotlin
+# =========================
+
+# Diretórios de build e caches
+.gradle/
+**/build/
+**/.gradle/
+.kotlin/
+.kotlinc/
+out/
+
+# Android NDK / builds nativos
+.cxx/
+**/.cxx/
+.externalNativeBuild/
+**/.externalNativeBuild/
+**/obj/
+captures/
+
+# Arquivos locais de ambiente
+local.properties
+**/.env
+**/.env.*
+
+# Logs e dumps
+*.log
+*.hprof
+
+# Pacotes gerados
+*.apk
+*.ap_
+*.aab
+
+# Assinaturas e certificados
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.pem
+**/*.key
+**/*.crt
+signing.properties
+**/keystore.properties
+
+# =========================
+# IDEs (Android Studio / IntelliJ)
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.fleet/
+
+# =========================
+# SO: macOS / Windows
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+$RECYCLE.BIN/
+
+# =========================
+# Exceções importantes
+# =========================
+!gradlew
+!gradlew.bat
+!gradle/wrapper/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties

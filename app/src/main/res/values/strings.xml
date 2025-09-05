@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Oauth2App</string>
+
+    <!-- Login Screen Texts -->
+    <string name="str_login_dgt_usuario">Digite seu email</string>
+    <string name="str_login_dgt_senha">Digite sua senha</string>
+    <string name="str_login_acessar">Login</string>
+    <string name="str_login_invalido">Dados inválidos</string>
+    <string name="label_error_connection">Sem conexão com a internet</string>
+    <string name="label_error_title_default">Ops, ocorreu um problema!</string>
+    <string name="label_error_retry_default">"Verique os dados e tente novamente"</string>
+    <string name="ok">OK</string>
+
+</resources>
